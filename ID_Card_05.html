@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ID Card</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: white;
+      }
+
+      /* Main ID Card */
+      .card {
+        width: 350px;
+        margin: 50px auto;
+        border: 2px solid brown;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: white;
+
+        /* Flexbox */
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Institute Name */
+      .front {
+        background-color: brown;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .front h2 {
+        margin: 5px;
+        font-size: 20px;
+      }
+
+      /* Student Image */
+      .image {
+        width: 110px;
+        height: 130px;
+        /* object-fit: cover; */
+        border: 1px solid brown;
+        margin: 20px auto 10px;
+        display: block;
+        border-radius: 10px;
+      }
+
+      /* Details */
+      .details {
+        padding: 10px 25px;
+        font-size: 15px;
+        line-height: 1.5;
+      }
+
+      .details h2 {
+        text-align: center;
+        color: brown;
+        margin-bottom: 15px;
+      }
+
+      .details p {
+        margin: 12px 0;
+      }
+
+      /* Footer */
+      .footer {
+        border-top: 1px solid white;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        color: white;
+        background-color: brown;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="front">
+        <h2>TECHNOCRATS INSTITUTE OF</h2>
+        <h2>TECHNOLOGY (EXCELLENCE)</h2>
+      </div>
+
+      <img src="./assets/1742410168949.jpg" alt="Student Photo" class="image" />
+
+      <div class="details">
+        <h2>IDENTITY CARD</h2>
+
+        <p><b>Full Name:</b> Gulam Rabbani</p>
+
+        <p><b>DOB:</b> 05/10/2006</p>
+
+        <p><b>Course Name:</b> B.Tech</p>
+
+        <p><b>Mob No:</b> 6387530722</p>
+
+        <p><b>Enroll: </b>0191CS231124</p>
+
+        <p><b>Address:</b> Bhopal, India</p>
+      </div>
+
+      <div class="footer"><b>UNBETABLE PLACEMENT</b></div>
+    </div>
+  </body>
+</html>
