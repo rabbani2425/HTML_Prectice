@@ -1,0 +1,15 @@
+h1{
+    color: blueviolet;
+    background-color: whitesmoke;
+    text-align: center;
+}
+p{
+    color: brown;
+    font-weight: bold;
+}
+p span{
+    color: greenyellow;
+    background-color: red;
+    font-weight: 0px;
+
+}
